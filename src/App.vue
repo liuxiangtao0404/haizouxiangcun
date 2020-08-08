@@ -31,13 +31,10 @@
 	#app{
 		width: 100%;
 	}
-<<<<<<< HEAD
-=======
 	.van-nav-bar__text{
 		color: black !important;
 	}
 	.van-nav-bar .van-icon{
 		color: black !important;
 	}
->>>>>>> f3598e9... haizouxiangcun
 </style>

@@ -82,18 +82,6 @@
 				</div>
 				<ul class="xctj">
 					<li v-for="(item,index) in minsu" :key="index">
-<<<<<<< HEAD
-						<img :src="item.img" width="100%">
-						<div class="shenlv xzi">{{item.chengshi}}</div>
-						<div class="dazi zi">{{item.minsu}}</div>
-						<div>
-							<span style="color: #ee263d;">￥{{item.jiage}}</span>起
-						</div>
-					</li>
-				</ul>
-				<div class="gengduo">
-					<van-button type="primary">查看更多民宿</van-button>
-=======
 						<template v-if="index <= 5">
 							<img :src="item.img" width="100%">
 							<div class="shenlv xzi">{{item.chengshi}}</div>
@@ -109,7 +97,6 @@
 				</ul>
 				<div class="gengduo">
 					<van-button type="primary" @click="gengduoms()">查看更多民宿</van-button>
->>>>>>> f3598e9... haizouxiangcun
 				</div>
 			</template>
 		</div>
@@ -133,12 +120,8 @@
 					// console.log(res)
 					this.cunyou = res.data.data.cunyou			//精品村游路线
 					this.tuijian = res.data.data.tuijian		//每日乡村推荐
-<<<<<<< HEAD
-					this.minsu = res.data.data.minsu		//精品民宿
-=======
 					this.minsu = res.data.data.minsu			//精品民宿
 					console.log(this.minsu.length)
->>>>>>> f3598e9... haizouxiangcun
 				}).catch((error) => {
 				console.log(error)
 			})
@@ -155,15 +138,12 @@
 				this.$router.push({
 					name:"Cunyouluxian"
 				})
-<<<<<<< HEAD
-=======
 			},
 			gengduoms(){
 				this.$store.state.pdshow = false
 				this.$router.push({
 					name:"Minsu"
 				})
->>>>>>> f3598e9... haizouxiangcun
 			}
 		}
 	}
@@ -184,10 +164,7 @@
 
 	.youtaxaing {
 		width: 100%;
-<<<<<<< HEAD
-=======
 		overflow-y: hidden;
->>>>>>> f3598e9... haizouxiangcun
 		margin-bottom: 20%;
 	}
 

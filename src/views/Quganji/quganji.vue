@@ -1,8 +1,4 @@
 <template>
-<<<<<<< HEAD
-	<div>
-		去赶集
-=======
 	<div class="quganji">
 		<van-sticky>
 			<!-- 搜索 -->
@@ -42,16 +38,10 @@
 				</van-tab>
 			</van-tabs>
 		</div>
->>>>>>> f3598e9... haizouxiangcun
 	</div>
 </template>
 
 <script>
-<<<<<<< HEAD
-</script>
-
-<style>
-=======
 	import quanbu from '../../components/quganji/quanbu.vue'		//全部
 	import gonyou from '../../components/quganji/gonyou.vue'		//公共组件
 	export default {
@@ -97,5 +87,4 @@
 		/* height: 1000px; */
 		overflow-y: hidden;
 	}
->>>>>>> f3598e9... haizouxiangcun
 </style>
