@@ -39,29 +39,46 @@
 		name:"app",
 		data(){
 			return{
-				syimg:require('assets/image/tabs/shouye-1.jpg'),			//动态首页图片
+				syimg:require('assets/image/tabs/shouye-0.jpg'),			//动态首页图片
 				ytximg:require('assets/image/tabs/youtaxiang-0.jpg'),		//动态游他乡图片
 				qgjimg:require('assets/image/tabs/quganji-0.jpg'),			//动态去赶集图片
 				wdimg:require('assets/image/tabs/wode-0.jpg'),				//动态我的图片
-				pdlvse:1,													//底部css切换颜色
+				pdlvse:0,													//底部css切换颜色
 			}
 		},
 		methods:{
 			tab(zhi){
-				this.pdlvse = zhi
+				localStorage.setItem('id',zhi)
+				this.pdlvse = localStorage.getItem('id')
 				this.syimg=require('assets/image/tabs/shouye-0.jpg')
 				this.ytximg=require('assets/image/tabs/youtaxiang-0.jpg')
 				this.qgjimg=require('assets/image/tabs/quganji-0.jpg')
 				this.wdimg=require('assets/image/tabs/wode-0.jpg')
-				if(zhi == 1){
+				if(this.pdlvse == 1){
 					this.syimg=require('assets/image/tabs/shouye-1.jpg')
-				}else if(zhi == 2){
+					localStorage.setItem('syimg',this.syimg)
+				}else if(this.pdlvse == 2){
 					this.ytximg=require('assets/image/tabs/youtaxiang-1.jpg')
-				}else if(zhi == 3){
+					localStorage.setItem('ytximg',this.ytximg)
+				}else if(this.pdlvse == 3){
 					this.qgjimg=require('assets/image/tabs/quganji-1.jpg')
-				}else if(zhi == 4){
+					localStorage.setItem('qgjimg',this.qgjimg)
+				}else if(this.pdlvse == 4){
 					this.wdimg=require('assets/image/tabs/wode-1.jpg')
+					localStorage.setItem('wdimg',this.wdimg)
 				}
+			}
+		},
+		mounted() {
+			this.pdlvse = localStorage.getItem('id')
+			if(this.pdlvse == 1){
+				this.syimg=localStorage.getItem('syimg')
+			}else if(this.pdlvse == 2){
+				this.ytximg=localStorage.getItem('ytximg')
+			}else if(this.pdlvse == 3){
+				this.qgjimg=localStorage.getItem('qgjimg')
+			}else if(this.pdlvse == 4){
+				this.wdimg=localStorage.getItem('wdimg')
 			}
 		}
 	}

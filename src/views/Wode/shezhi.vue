@@ -28,7 +28,7 @@
 					<a href="#">服务协议</a>|
 					<a href="#">隐私政策</a>
 				</div>
-				<van-button type="primary" size="large">退出登录</van-button>
+				<van-button type="primary" size="large" @click="tuichu()">退出登录</van-button>
 			</div>
 		</template>
 		<template v-else>
@@ -88,6 +88,10 @@
 			},
 			panduan(){
 				this.$store.state.erjiif = false
+			},
+			tuichu(){
+				this.$store.commit("getters/setCookie",'','',-1)//修改2值都为空，天数为负1天就好了
+				// this.setCookie("", "", -1); 
 			}
 		},
 		created() {
