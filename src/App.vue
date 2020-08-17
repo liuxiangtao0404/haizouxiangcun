@@ -14,6 +14,7 @@
 				
 			}
 		},
+<<<<<<< HEAD
 		mounted() {
 			 this.getCookie();
 		},
@@ -34,6 +35,8 @@
 				}
 			}
 		},
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		components:{
 			bottom
 		}

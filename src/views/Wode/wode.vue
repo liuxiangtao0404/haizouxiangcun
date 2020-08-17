@@ -1,6 +1,7 @@
 <template>
 	<div class="wode">
 		<div class="denglu">
+<<<<<<< HEAD
 			<template v-if="this.$store.state.dluser == '点击登录'">
 				<van-row type="flex" align="center">
 					<van-col span="4">
@@ -25,6 +26,14 @@
 					</van-col>
 				</van-row>
 			</template>
+=======
+			<van-row type="flex" align="center">
+				<van-col span="4">
+					<img src="../../assets/image/wode/weidenglu.png" width="80%">
+				</van-col>
+				<van-col span="20"><span class="cuti">点击登录</span></van-col>
+			</van-row>
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		</div>
 		<div class="guanzhuqu">
 			<van-row style="text-align: center;">
@@ -35,10 +44,17 @@
 					<span class="huizi">动态</span> 0
 				</van-col>
 				<van-col span="6">
+<<<<<<< HEAD
 					<router-link to="/guanzhu" tag="span" class="huizi">关注</router-link> {{gzcount}}
 				</van-col>
 				<van-col span="6">
 					<router-link to="/fensi" tag="span" class="huizi">粉丝</router-link> {{fscount}}
+=======
+					<span class="huizi">关注</span> 0
+				</van-col>
+				<van-col span="6">
+					<span class="huizi">粉丝</span> 0
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 				</van-col>
 			</van-row>
 		</div>
@@ -85,9 +101,13 @@
 					<van-col span="2">
 						<img :src="item.img" width="100%">
 					</van-col>
+<<<<<<< HEAD
 					<van-col span="19" offset="1">
 						<router-link :to="item.route" class="cuti" @click.native="yingcang()">{{item.title}}</router-link>
 					</van-col>
+=======
+					<van-col span="19" offset="1"><span class="cuti">{{item.title}}</span></van-col>
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 					<van-col span="2">
 						<van-icon name="arrow" />
 					</van-col>
@@ -105,6 +125,7 @@
 				liebiao:[
 					{
 						img:require('../../assets/image/wode/2.jpg'),
+<<<<<<< HEAD
 						title:"我的钱包",
 						route:""
 					},
@@ -155,6 +176,28 @@
 		},
 		created() {
 			this.$store.state.pdshow = true
+=======
+						title:"我的钱包"
+					},
+					{
+						img:require('../../assets/image/wode/3.jpg'),
+						title:"我的收藏"
+					},
+					{
+						img:require('../../assets/image/wode/4.jpg'),
+						title:"我的工分"
+					},
+					{
+						img:require('../../assets/image/wode/5.jpg'),
+						title:"浏览历史"
+					},
+					{
+						img:require('../../assets/image/wode/6.jpg'),
+						title:"设置"
+					}
+				]
+			}
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		}
 	}
 </script>
@@ -180,7 +223,10 @@
 	}
 
 	.cuti {
+<<<<<<< HEAD
 		color: black;
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		font-weight: 600;
 	}
 
@@ -228,6 +274,7 @@
 		padding: 4% 0;
 		box-sizing: border-box;
 	}
+<<<<<<< HEAD
 	
 	.dengji{
 		width: 40%;
@@ -244,4 +291,6 @@
 		text-align: center;
 		border: 1px solid #4bb956;
 	}
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 </style>

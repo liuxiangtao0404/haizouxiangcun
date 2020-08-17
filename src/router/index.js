@@ -39,6 +39,7 @@ const routes = [
 		path: '/wode',
 		name: 'Wode',
 		component: () => import('../views/Wode/wode.vue')
+<<<<<<< HEAD
 	},
 	{
 		path: '/denglu',
@@ -85,6 +86,8 @@ const routes = [
 		path: '/fensi',
 		name: 'Fensi',
 		component: () => import('../views/Wode/fensi.vue')
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 	}
 ]
 
