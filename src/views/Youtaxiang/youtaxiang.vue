@@ -116,6 +116,7 @@
 		},
 		created() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			this.$store.state.pdshow = true
 			this.axios.get("https://www.fastmock.site/mock/512c0b7fc6a2506231af3ff39f225e5d/haizouxiangcun/api/youtaxiang").then(
 				(res) => {
@@ -124,6 +125,8 @@
 					this.minsu = res.data.data.minsu			//精品民宿
 					// console.log(this.minsu.length)
 =======
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 			this.axios.get("https://www.fastmock.site/mock/512c0b7fc6a2506231af3ff39f225e5d/haizouxiangcun/api/youtaxiang").then(
 				(res) => {
 					// console.log(res)
@@ -131,6 +134,9 @@
 					this.tuijian = res.data.data.tuijian		//每日乡村推荐
 					this.minsu = res.data.data.minsu			//精品民宿
 					console.log(this.minsu.length)
+<<<<<<< HEAD
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
+=======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 				}).catch((error) => {
 				console.log(error)

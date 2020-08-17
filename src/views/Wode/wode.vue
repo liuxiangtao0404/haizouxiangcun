@@ -2,6 +2,7 @@
 	<div class="wode">
 		<div class="denglu">
 <<<<<<< HEAD
+<<<<<<< HEAD
 			<template v-if="this.$store.state.dluser == '点击登录'">
 				<van-row type="flex" align="center">
 					<van-col span="4">
@@ -27,12 +28,17 @@
 				</van-row>
 			</template>
 =======
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 			<van-row type="flex" align="center">
 				<van-col span="4">
 					<img src="../../assets/image/wode/weidenglu.png" width="80%">
 				</van-col>
 				<van-col span="20"><span class="cuti">点击登录</span></van-col>
 			</van-row>
+<<<<<<< HEAD
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
+=======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		</div>
 		<div class="guanzhuqu">
@@ -45,15 +51,21 @@
 				</van-col>
 				<van-col span="6">
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<router-link to="/guanzhu" tag="span" class="huizi">关注</router-link> {{gzcount}}
 				</van-col>
 				<van-col span="6">
 					<router-link to="/fensi" tag="span" class="huizi">粉丝</router-link> {{fscount}}
 =======
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 					<span class="huizi">关注</span> 0
 				</van-col>
 				<van-col span="6">
 					<span class="huizi">粉丝</span> 0
+<<<<<<< HEAD
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
+=======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 				</van-col>
 			</van-row>
@@ -102,9 +114,13 @@
 						<img :src="item.img" width="100%">
 					</van-col>
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<van-col span="19" offset="1">
 						<router-link :to="item.route" class="cuti" @click.native="yingcang()">{{item.title}}</router-link>
 					</van-col>
+=======
+					<van-col span="19" offset="1"><span class="cuti">{{item.title}}</span></van-col>
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 					<van-col span="19" offset="1"><span class="cuti">{{item.title}}</span></van-col>
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
@@ -125,6 +141,7 @@
 				liebiao:[
 					{
 						img:require('../../assets/image/wode/2.jpg'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 						title:"我的钱包",
 						route:""
@@ -177,6 +194,8 @@
 		created() {
 			this.$store.state.pdshow = true
 =======
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 						title:"我的钱包"
 					},
 					{
@@ -197,6 +216,9 @@
 					}
 				]
 			}
+<<<<<<< HEAD
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
+=======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		}
 	}
@@ -224,7 +246,10 @@
 
 	.cuti {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		color: black;
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		font-weight: 600;
@@ -275,6 +300,7 @@
 		box-sizing: border-box;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	.dengji{
 		width: 40%;
@@ -291,6 +317,8 @@
 		text-align: center;
 		border: 1px solid #4bb956;
 	}
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 </style>

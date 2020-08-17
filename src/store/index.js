@@ -6,6 +6,7 @@ Vue.use(Vuex)
 export default new Vuex.Store({
 	state: {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		pdshow:true,
 		erjiif:true,
 		dluser:"点击登录"
@@ -20,6 +21,9 @@ export default new Vuex.Store({
 			window.document.cookie = "userPwd" + "=" + c_pwd + ";path=/;expires=" + exdate.toGMTString();
 			return c_name, c_pwd, exdays
 		}
+=======
+		pdshow:true
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 		pdshow:true
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2

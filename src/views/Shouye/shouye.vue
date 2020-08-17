@@ -40,9 +40,12 @@
 		components: {
 			tuijian
 <<<<<<< HEAD
+<<<<<<< HEAD
 		},
 		created() {
 			this.$store.state.pdshow = true
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		}

@@ -40,25 +40,35 @@
 		data(){
 			return{
 <<<<<<< HEAD
+<<<<<<< HEAD
 				syimg:require('assets/image/tabs/shouye-0.jpg'),			//动态首页图片
 				ytximg:require('assets/image/tabs/youtaxiang-0.jpg'),		//动态游他乡图片
 				qgjimg:require('assets/image/tabs/quganji-0.jpg'),			//动态去赶集图片
 				wdimg:require('assets/image/tabs/wode-0.jpg'),				//动态我的图片
 				pdlvse:0,													//底部css切换颜色
 =======
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 				syimg:require('assets/image/tabs/shouye-1.jpg'),			//动态首页图片
 				ytximg:require('assets/image/tabs/youtaxiang-0.jpg'),		//动态游他乡图片
 				qgjimg:require('assets/image/tabs/quganji-0.jpg'),			//动态去赶集图片
 				wdimg:require('assets/image/tabs/wode-0.jpg'),				//动态我的图片
 				pdlvse:1,													//底部css切换颜色
+<<<<<<< HEAD
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
+=======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 			}
 		},
 		methods:{
 			tab(zhi){
 <<<<<<< HEAD
+<<<<<<< HEAD
 				localStorage.setItem('id',zhi)
 				this.pdlvse = localStorage.getItem('id')
+=======
+				this.pdlvse = zhi
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 				this.pdlvse = zhi
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
@@ -66,6 +76,7 @@
 				this.ytximg=require('assets/image/tabs/youtaxiang-0.jpg')
 				this.qgjimg=require('assets/image/tabs/quganji-0.jpg')
 				this.wdimg=require('assets/image/tabs/wode-0.jpg')
+<<<<<<< HEAD
 <<<<<<< HEAD
 				if(this.pdlvse == 1){
 					this.syimg=require('assets/image/tabs/shouye-1.jpg')
@@ -94,6 +105,8 @@
 				this.wdimg=localStorage.getItem('wdimg')
 			}
 =======
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 				if(zhi == 1){
 					this.syimg=require('assets/image/tabs/shouye-1.jpg')
 				}else if(zhi == 2){
@@ -104,6 +117,9 @@
 					this.wdimg=require('assets/image/tabs/wode-1.jpg')
 				}
 			}
+<<<<<<< HEAD
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
+=======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 		}
 	}

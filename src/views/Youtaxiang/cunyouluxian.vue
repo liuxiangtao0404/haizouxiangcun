@@ -40,7 +40,10 @@
 		},
 		created() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			this.$store.state.pdshow = false
+=======
+>>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 =======
 >>>>>>> beb93cfe222bfe350d44f0c8340dd22fb16b92f2
 			this.axios.get("https://www.fastmock.site/mock/512c0b7fc6a2506231af3ff39f225e5d/haizouxiangcun/api/youtaxiang").then(
